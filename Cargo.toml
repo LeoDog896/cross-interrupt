@@ -1,0 +1,11 @@
+[package]
+name = "terminate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cvt = "0.1.2"
+libc = "0.2.149"
+
+[workspace]
+members = ["dummy"]
