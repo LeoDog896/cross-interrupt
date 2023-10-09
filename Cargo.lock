@@ -62,6 +62,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "cross_interrupt"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "cvt",
+ "libc",
+ "predicates",
+ "uuid",
+ "windows-sys",
+]
+
+[[package]]
 name = "ctrlc"
 version = "3.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -279,18 +291,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "terminate"
-version = "0.1.0"
-dependencies = [
- "assert_cmd",
- "cvt",
- "libc",
- "predicates",
- "uuid",
- "windows-sys",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "terminate"
+name = "cross_interrupt"
 version = "0.1.0"
 edition = "2021"
 
